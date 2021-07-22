@@ -2,5 +2,7 @@
     import Nav from '$lib/nav.svelte';
 </script>
 
-<Nav></Nav>
-<slot></slot>
+<div class="container">
+    <Nav></Nav>
+    <slot></slot>
+</div>
